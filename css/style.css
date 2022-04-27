@@ -236,3 +236,10 @@ footer{
     padding-left: 20px;
     padding-bottom: 10px;
 }
+.copyright a{
+    color:#DEB992;
+    text-decoration: none;
+}
+.copyright a:hover{
+    color: white;
+}
