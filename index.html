@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert Paz Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav-container">
+        <nav id="nav" class="navbar">
+            <div>
+                <a href="#hero"><img src="images/p-2.png" class="logo" alt="logo"></a>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="hero container">
+    <div class="hero-image" id="hero">
+        <div class="hero-text">
+            <p class="p-1">HI IM</p>
+            <h1>ROBERT PAZ</h1>
+            <p class="p-2">A SOFTWARE</p>
+            <p class="p-3">DEVELOPER</p>
+        </div>
+    </div>
+    </div>
+    <div id="about">
+        <div class="about-intro">
+            <h2 class="section-title">ABOUT ME</h2>
+            <img src="images/cat_selfie.png" alt="selfie with cat">
+            <p>My name is Robert Paz. I'm a successful Respiratory Therapist turned Full Stack Developer in the San Francisco area. I'm a driven self-motivated graduate from Coding Temple boot camp seeking an entry-level position as a developer. I live in Concord, CA with my partner and two irreplaceable cats. </p>
+        </div>
+        <div class="about-container">
+            <div class="about-contact">
+                <h3>Cotact Information</h3>
+                <ul>
+                    <li>Name: Robert Fernadez Paz</li>
+                    <li>Phone Number: (608) 347-6741<li>
+                    <li>E-Mail:<a href="mailto:rtfp0102@gmail.com"> rtfp0102@gmail.com</a></li>
+                    <li>LinkedIn:<a href="http://www.linkedin.com/in/robert-fernandez-paz"> robert-fernandez-paz</a></li>
+                </ul>
+            </div>
+            <div class="about-contact">
+                <h3>Skills</h3>
+                <ul>
+                    <li>HTML & CSS</li>
+                    <li>Javascript</li>
+                    <li>Python</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <h2 class="section-title">PORTFOLIO</h2>
+        <div class="portfolio-container">
+            <div class="card">
+                <figure>
+                    <img src="https://via.placeholder.com/200">
+                    <figcaption>Project 1</figcaption>
+                </figure>
+            </div>
+            <div class="card">
+                <figure>
+                    <img src="https://via.placeholder.com/200">
+                    <figcaption>Project 2</figcaption>
+                </figure>
+            </div>
+            <div class="card">
+                <figure>
+                    <img src="https://via.placeholder.com/200">
+                    <figcaption>Project 3</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <h2 class="section-title">CONTACT ME</h2>
+        <form action="mailto:rtfp0102@gmail.com" method="POST">
+            <label for="name"><strong>Name</strong></label>
+            <input type="text" id="name" placeholder="Name">
+            <label for="email"><strong>E-Mail</strong></label>
+            <input type="email" id="email" placeholder="E-Mail">
+            <br>
+            <label for="message"><strong>Message</strong></label>
+            <br>
+            <textarea id="message" placeholder="Your message" rows="5"></textarea>
+            <br>
+            <input type="submit">
+        </form>
+    </div>
+    <footer>
+        <hr>
+        <div class="copyright">
+            &copy; &nbsp; Robert Paz 2022
+        </div>
+    </footer>
+</body>
+</html>

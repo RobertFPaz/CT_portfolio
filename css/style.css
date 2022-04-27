@@ -1,0 +1,238 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+    padding: 0px; 
+}
+body{
+    padding-top: 103px;
+    max-width:max-content;
+}
+.nav-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #051622;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 0px 40px;
+    height: 103px;
+}
+.nav-list{
+    list-style-type: none;
+}
+.nav-list li{
+    display: inline-block;
+    padding: 20px 10px;
+}
+.navbar a{
+    color: #DEB992;
+    text-decoration: none;
+    font-family: oswald, sans-serif;
+}
+.navbar a:hover{
+    color: white;
+}
+.logo{
+    height: 55px;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+.logo:hover{
+    box-shadow: 0px 0px 2px 4px #DEB992;
+}
+.hero-image{
+    background-image: url("../images/joshua-sortino-LqKhnDzSF-8-unsplash-2.jpg");
+    min-height: 500px;
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:#DEB992;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+}
+.hero-text{
+    background-color: #051622;
+    height: 280px;
+    width: 550px;
+    padding: 60px 100px;
+    margin: auto;
+    border-radius: 10px;
+    border: 10px solid #051622
+}
+.hero-text .p-1{
+    text-align: left;
+    font-family: oswald, sans-serif;
+    margin-top: 60px;
+    margin-bottom: 0;
+    margin-left: 13px;
+}
+.hero-text .p-2, .p-3{
+    text-align: right;
+    font-family: oswald, sans-serif;
+    margin-bottom: 0;
+    margin-top: 5px;
+    margin-right: 12px;
+}
+.hero-text h1{
+    text-align: center;
+    font-size: 77px;
+    font-family: montserrat, sans-serif;
+    letter-spacing: 3px;
+    margin:5px 0px;;
+}
+#about{
+    width: 100%;
+    background-color: #051622;
+    color:#DEB992;
+    padding: 20px;
+    line-height: 25px;
+}
+#about p{
+    font-size: 18px;
+}
+.about-intro{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.section-title{
+    font-family: montserrat, sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+.about-intro img{
+    height: 90px;
+    border-radius: 50%;
+    border: 3px solid #DEB992;
+}
+.about-container{
+    display: flex;
+    justify-content: center;
+    padding:20px;
+}
+.about-contact{
+    width: 20%;
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+.about-contact h3 {
+    font-family: oswald, sans-serif;
+    font-size: 32px;
+}
+.about-contact ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+.about-contact a{
+    text-decoration: none;
+    color:#DEB992
+}
+.about-contact a:hover{
+    color:white;
+}
+#portfolio{
+    width: 100%;
+    background-color: #DEB992;
+    margin-top: -20px;
+    padding: 20px;
+}
+#portfolio h2{
+    text-align: center;
+}
+.portfolio-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+.card {
+    background-color: #051622;
+    color:#DEB992;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+.card:hover{
+    transform: scale(1.1, 1.1);
+    box-shadow: 3px 3px 2px 2px #051622;
+}
+.card img{
+    border-radius: 5px;
+}
+.card figcaption {
+    padding-top: 7px;
+    font-family: oswald, sans-serif;
+    font-size: 20px;
+}
+#contact{
+    width: 100%;
+    background-color: #051622;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    color:#DEB992;
+    padding: 20px;
+}
+form{
+    width: 370px;
+    padding: 10px;
+    margin: auto;
+}
+input[type=text], input[type=email]{
+    width: 155px;
+    margin: 0px 5px;
+    padding: 5px;
+    background-color: #DEB992;
+    border-radius: 5px;
+    font-size: medium;
+}
+textarea{
+    resize: none;
+    width: 345px;
+    margin: 0px 5px;
+    background-color: #DEB992;
+    border-radius: 5px;
+    font-size: medium;
+    border: 2px inset white;
+}
+::placeholder{
+    color:#051622;
+    opacity: .6;
+}
+label{
+    display: none;
+}
+input[type=submit]{
+    background-color: #DEB992;
+    color: #051622;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    font-size:medium;
+    width: 353px;
+}
+hr{
+    color: #DEB992;
+}
+footer{
+    margin-top: -20px;
+    background-color: #051622;
+    color:#DEB992;
+    font-size: small;
+    text-align: center;
+    width: 100%;
+}
+.copyright{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
